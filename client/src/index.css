@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  body {
+    overflow: hidden;
+  }
+  .ant-btn-primary {
+    background-color: #8b7355c5;
+  }
+  .ant-btn-primary:hover {
+    background-color: #d79431 !important; /* Darker shade on hover */
+  }
+
+  .categories::-webkit-scrollbar {
+    display: none;
+  }
+
+  .products::-webkit-scrollbar {
+    display: none;
+  }
+}

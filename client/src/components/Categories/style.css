@@ -1,0 +1,4 @@
+.category-item{
+    @apply bg-[#d1b47d] px-10  py-10 text-white cursor-pointer hover:bg-[#8b7355] transition-all text-center rounded-tl-lg rounded-br-lg flex items-center justify-center
+    
+}
