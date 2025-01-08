@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import CartTotals from "../../components/Cart/CartTotals";
 import Categories from "../../components/Categories/Categories";
 import Header from "../../components/Header/Header";
-import Products from "../../components/products/Products";
+import Products from "../../components/Products/Products";
 import { Spin } from "antd";
 
 const Home = () => {
