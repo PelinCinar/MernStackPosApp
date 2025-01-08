@@ -6,8 +6,15 @@ import { Spin } from "antd";
 const Statistic = () => {
   const [billItems, setBillItems] = useState();
   const [products, setProducts] = useState([]);
-  const user = JSON.parse(localStorage.getItem("popUser")); // localStorage'dan kullanıcı verisini al
+  
+  const user = JSON.parse(localStorage.getItem("posUser"));
 
+
+  // if (!user) {
+  //   console.log("Kullanıcı verisi bulunamadı.");
+  // } else {
+  //   console.log(user);
+  // }
   useEffect(() => {
     const getBills = async () => {
       try {
